@@ -7,9 +7,13 @@ import random
 
 def main():
     score = float(input("Enter score: "))
-    print(f"With the score {score} you reached: ", calculate_grade(score))
+    print_grade(score)
     random_score = random.randint(1, 100)
-    print(f"With the score {random_score} you reached: ", calculate_grade(random_score))
+    print_grade(random_score)
+
+
+def print_grade(score):
+    print(f"With the score {score} you reached: ", calculate_grade(score))
 
 
 def calculate_grade(score):
