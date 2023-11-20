@@ -1,6 +1,6 @@
 """
 CP1404/CP5632 - Practical
-
+Answering the tasks and coded a random number
 """
 
 import random
