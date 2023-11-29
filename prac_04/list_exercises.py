@@ -1,4 +1,21 @@
 def main():
+    usernames = ['jimbo', 'giltson98', 'derekf', 'WhatSup', 'NicolEye', 'swei45', 'BaseInterpreterInterface',
+                 'BaseStdIn', 'Command', 'ExecState', 'InteractiveConsole', 'InterpreterInterface', 'StartServer',
+                 'bob']
+
+    number_evaluation()
+    username_checker(usernames)
+
+
+def username_checker(usernames):
+    user_username = str(input("Please insert your username: "))
+    if user_username in usernames:
+        print("Access granted")
+    else:
+        print("Access denied")
+
+
+def number_evaluation():
     numbers = []
     for i in range(5):
         number = int(input("Number: "))
