@@ -1,4 +1,8 @@
-
+"""
+CP1404 Practical
+opens/reads a file, stores in objects of Guitar class
+sorts them and possible to add new ones
+"""
 from guitar import Guitar
 
 guitars = []
