@@ -1,4 +1,5 @@
 """
+manage the Project class
 estimated time: 40 minutes
 needed time: 46 minutes
 """
