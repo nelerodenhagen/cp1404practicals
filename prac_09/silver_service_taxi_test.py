@@ -1,3 +1,7 @@
+"""
+tests Silver Service Taxi
+"""
+
 from silver_service_taxi import SilverServiceTaxi
 
 
